@@ -2,7 +2,7 @@
 /**
  * main - Write a function that prints
  * the alphabet in lowercase
- * description: 1-alphabet.c
+ * Description: 1-alphabet.c
  * Return: void
  */
 
