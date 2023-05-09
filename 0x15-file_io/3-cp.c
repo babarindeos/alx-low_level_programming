@@ -12,7 +12,7 @@ void check97(int argc)
 {
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "Usage: copy file_from file_to\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 }
@@ -39,6 +39,7 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
 	}
 }
 
+
 /**
  * check99 - check that destination file was created and/or
  * can be written into
@@ -61,6 +62,7 @@ void check99(ssize_t check, char *file, int fd_from, int fd_to)
 		exit(99);
 	}
 }
+
 
 /**
  * check100 - check that file descriptors were closed properly
